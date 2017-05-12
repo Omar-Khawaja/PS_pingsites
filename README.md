@@ -5,7 +5,7 @@ and wonder what their PowerShell equivalent is.
 This script takes websites listed in another file and pings each of them once.
 The stdout and stderr are tossed into $null, and the customized output is 
 displayed on the screen. Each website is then placed into either the successArr
-or failArr array.
+or failArr array and listed out again at the end.
 
 I found the following site to be a handy reference:
 http://cecs.wright.edu/~pmateti/Courses/233/Labs/Scripting/bashVsPowerShellTable.html
